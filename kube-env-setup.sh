@@ -27,7 +27,7 @@ tar -xvf go-linux-ppc64le-bootstrap.tbz
 export GOROOT_BOOTSTRAP=/tmp/go-linux-ppc64le-bootstrap
 mkdir -p /go/src/go.googlesource.com && cd /go/src/go.googlesource.com && git clone https://go.googlesource.com/go
 cd /go/src/go.googlesource.com/go/
-git checkout git checkout release-branch.go1.6
+git checkout release-branch.go1.6
 cd src/
 ./make.bash
 cd
